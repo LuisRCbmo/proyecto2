@@ -14,8 +14,9 @@
   text-align: center;
   padding: 0px 16px;
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.75rem;
   height: 5vh;
+  line-height: 46.14px;
 }
 
 .nav--ul--li--a:hover {
