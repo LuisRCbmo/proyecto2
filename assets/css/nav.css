@@ -1,0 +1,24 @@
+.nav--ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #3A82BD;
+}
+
+.nav--ul--li {
+  float: left;
+}
+
+.nav--ul--li--a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+  font-size: 2em;
+  height: 5vh;
+}
+
+.nav--ul--li--a:hover {
+  background-color: #184870;
+  color: white;
+}
