@@ -1,25 +1,16 @@
-.nav--ul {
-  list-style-type: none;
-  overflow: hidden;
+.article__nav {
   background-color: #3A82BD;
 }
 
-.nav--ul--li {
-  float: left;
+.nav--ul {
 }
 
 .nav--ul--li--a {
-  display: block;
   color: black;
-  text-align: center;
-  padding: 0px 16px;
-  text-decoration: none;
-  font-size: 1.75rem;
-  height: 5vh;
-  line-height: 46.14px;
+  min-height: 5vh;
 }
 
 .nav--ul--li--a:hover {
-  background-color: #184870;
-  color: white;
+    background-color: #184870;
+    color: white;
 }
