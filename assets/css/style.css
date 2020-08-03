@@ -1,14 +1,24 @@
+body {
+  background: url('https://cdn.glitch.com/7b5d1b45-fc74-4414-b21d-0752dbca1ba5%2Ff3.jpg?v=1596047470560') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
 .header {
-  background-color: #184870;
+  background-color: #25323D;
   color: white;
   min-height: 15vh;
 }
 
 .main-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   min-height: 75vh;
 }
 .container__nav {
-  background-color: #69bbff;
+  background-color: #3A82BD;
 }
 
 .nav--ul--li--a {
@@ -16,26 +26,26 @@
 }
 
 .nav--ul--li--a:hover {
-  background-color: #3a82bd;
+  background-color: #7AA5C8;
 }
 
 .footer{
-    background-color: #70480c;
-    min-height: 10vh;/*
+    background-color: #25323D;
+    min-height: 15vh;/*
     border-bottom:0.5rem solid #184870;
     border-top:0.5rem solid #184870;*/
 }
 
 .footer--a{
     color: white;
-    background-color: #bd893a;
+    background-color: #3A82BD;
     border-radius: 10px;
     width: 100%;
     text-align: center;
 }
 
 .footer--a:hover{
-    color: #bd893a;
+    color: #3A82BD;
     background-color: white;
 }
 
