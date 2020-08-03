@@ -1,0 +1,44 @@
+.header {
+  background-color: #184870;
+  color: white;
+  min-height: 15vh;
+}
+
+.main-section {
+  min-height: 75vh;
+}
+.container__nav {
+  background-color: #69bbff;
+}
+
+.nav--ul--li--a {
+  font-size: 1.5rem;
+}
+
+.nav--ul--li--a:hover {
+  background-color: #3a82bd;
+}
+
+.footer{
+    background-color: #70480c;
+    min-height: 10vh;/*
+    border-bottom:0.5rem solid #184870;
+    border-top:0.5rem solid #184870;*/
+}
+
+.footer--a{
+    color: white;
+    background-color: #bd893a;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer--a:hover{
+    color: #bd893a;
+    background-color: white;
+}
+
+.footer--p{
+    color: white;
+}
