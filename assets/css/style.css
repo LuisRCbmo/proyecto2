@@ -1,5 +1,6 @@
 body {
-  background: url('https://cdn.glitch.com/7b5d1b45-fc74-4414-b21d-0752dbca1ba5%2Ff3.jpg?v=1596047470560') no-repeat center center fixed;
+  background: url("https://cdn.glitch.com/7b5d1b45-fc74-4414-b21d-0752dbca1ba5%2Ff3.jpg?v=1596047470560")
+    no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -7,7 +8,7 @@ body {
 }
 
 .header {
-  background-color: #25323D;
+  background-color: #25323d;
   color: white;
   min-height: 15vh;
 }
@@ -18,7 +19,11 @@ body {
   min-height: 75vh;
 }
 .container__nav {
-  background-color: #3A82BD;
+  background-color: #3a82bd;
+}
+
+.heading{
+  color:#7AA5C8;
 }
 
 .nav--ul--li--a {
@@ -26,29 +31,27 @@ body {
 }
 
 .nav--ul--li--a:hover {
-  background-color: #7AA5C8;
+  background-color: #7aa5c8;
 }
 
-.footer{
-    background-color: #25323D;
-    min-height: 15vh;/*
-    border-bottom:0.5rem solid #184870;
-    border-top:0.5rem solid #184870;*/
+.footer {
+  background-color: #25323d;
+  min-height: 15vh;
 }
 
-.footer--a{
-    color: white;
-    background-color: #3A82BD;
-    border-radius: 10px;
-    width: 100%;
-    text-align: center;
+.footer--a {
+  color: white;
+  background-color: #3a82bd;
+  border-radius: 10px;
+  width: 100%;
+  text-align: center;
 }
 
-.footer--a:hover{
-    color: #3A82BD;
-    background-color: white;
+.footer--a:hover {
+  color: #3a82bd;
+  background-color: white;
 }
 
-.footer--p{
-    color: white;
+.footer--p {
+  color: white;
 }
