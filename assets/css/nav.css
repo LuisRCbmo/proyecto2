@@ -1,16 +1,11 @@
-.article__nav {
-  background-color: #3A82BD;
-}
-
-.nav--ul {
+.container__nav {
+  background-color: #69BBFF;
 }
 
 .nav--ul--li--a {
-  color: black;
   min-height: 5vh;
 }
 
 .nav--ul--li--a:hover {
-    background-color: #184870;
-    color: white;
+    background-color: #3A82BD;
 }
