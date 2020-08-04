@@ -5,26 +5,32 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-}
-
-.header {
-  background-color: #25323d;
-  color: white;
-  min-height: 15vh;
+  font-size: 1rem;
 }
 
 .main-section {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  min-height: 75vh;
-  background-color: rgba(255, 255, 255, 0.9);
+  min-height: 80vh;
+  background-color: rgba(255, 255, 255, 0.75);
 }
 .container__nav {
-  background-color: #3a82bd;
+  background-color: #25323d;
 }
 
-.heading{
-  color:#25323d;
+.heading-1 {
+  color: #25323d;
+  font-size: 4rem;
+}
+
+.heading-2 {
+  color: #25323d;
+  font-size: 3rem;
+}
+
+.heading-3 {
+  color: #25323d;
+  font-size: 2rem;
 }
 
 .nav--ul--li--a {
@@ -36,8 +42,8 @@ body {
 }
 
 .footer {
-  background-color: #25323d;
   min-height: 15vh;
+  background-color: #25323d;
 }
 
 .footer--a {
