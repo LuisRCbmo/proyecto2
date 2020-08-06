@@ -3,6 +3,7 @@
 .article--img{
     width: 375px;
     height: 375px;
+    border-radius: 10px;
 }
 
 .slider--img{
