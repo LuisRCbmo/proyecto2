@@ -1,0 +1,8 @@
+.article--div {
+  width: min-content;
+}
+
+.article--div--img {
+    width: 140px;
+    height: 140px;
+  }
