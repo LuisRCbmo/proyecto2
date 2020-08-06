@@ -11,7 +11,7 @@ body {
 .main-section {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  min-height: 65vh;
+  min-height: 70vh;
   background-color: rgba(255, 255, 255, 0.75);
 }
 .container__nav {
@@ -20,10 +20,17 @@ body {
 
 .nav--img {
   width: 100px;
+  border: 2px solid rgb(128, 128, 128, 0.5);
+  border-radius: 20px;
+}
+
+.nav--img:hover {
+  border: none;
+  background-color:rgb(128, 128, 128, 0.5);
 }
 
 .nav--ul--li--a {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
 .nav--ul--li--a:hover {
