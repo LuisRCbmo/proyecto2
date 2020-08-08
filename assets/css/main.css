@@ -4,7 +4,16 @@
     border-radius: 10px;
 }
 
+.article--div__img{
+    width: max-content;
+    margin-bottom: 3rem;
+}
+
 .slider--img{
     width: 100%;
     height: 40vh;
+}
+
+.article--col--p{
+    font-size: 2rem;
 }

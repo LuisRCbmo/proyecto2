@@ -1,0 +1,23 @@
+.container__nav {
+  background-color: #404040;
+}
+
+.nav--img {
+  width: 100px;
+  border: 2px solid rgb(128, 128, 128, 0.5);
+  border-radius: 20px;
+}
+
+.nav--img:hover {
+  border: none;
+  background-color: rgb(128, 128, 128, 0.5);
+}
+
+.nav--ul--li--a {
+  font-size: 1.25rem;
+}
+
+.nav--ul--li--a:hover {
+  background-color: #808080;
+  border-radius: 10px;
+}
