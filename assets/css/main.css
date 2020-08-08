@@ -17,8 +17,7 @@
 
 .slider--img {
   height: 50vh;
-  width: auto;
-  
+  max-width: fit-content;
 }
 
 .slider--item {
