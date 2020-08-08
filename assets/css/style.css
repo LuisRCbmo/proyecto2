@@ -1,3 +1,10 @@
+@font-face{
+  font-family: "Recursive";
+  src: url("fonts/RedRose-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background: url("https://cdn.glitch.com/7b5d1b45-fc74-4414-b21d-0752dbca1ba5%2Ffcyt.jpg?v=1596499881971")
     no-repeat center center fixed;
@@ -6,6 +13,7 @@ body {
   background-size: cover;
   -o-background-size: cover;
   font-size: 1rem;
+  font-family: "Recursive";
 }
 
 .main-section {
