@@ -27,3 +27,8 @@
 .article--row {
     background-color:  rgb(128, 128, 128, 0.75);
 }
+
+.article--col--div__img{
+  border-radius: 10px;
+  text-align: center;
+}
