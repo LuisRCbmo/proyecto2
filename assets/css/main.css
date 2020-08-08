@@ -5,6 +5,7 @@
 }
 
 .article--iframe{
+    width: 100%;
     height: 375px;
     border-radius: 10px;
 }
