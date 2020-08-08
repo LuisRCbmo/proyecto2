@@ -6,3 +6,24 @@
 .article--p{
     font-size: 1.5rem;
 }
+
+.article--button{
+    background-color: #404040;
+    border: none;
+}
+
+.article--button:hover{
+    background-color: #808080;
+}
+
+.article--button:active{
+    background-color: #808080;
+}
+
+.article--div__button{
+    width: max-content;
+}
+
+.card--heading{
+    height: 50px;
+}

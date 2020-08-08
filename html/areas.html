@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="icon" type="image/png"
         href="https://cdn.glitch.com/7b5d1b45-fc74-4414-b21d-0752dbca1ba5%2Fkisspng-cafe-coffee-logo-restaurant-capuccino-5ac5b4cbabadd9.2641775415229063157032.png?v=1596223045489">
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/areas.css">
     <link rel="stylesheet" href="../assets/css/nav.css">
@@ -31,10 +30,12 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle nav--ul--li--a" data-toggle="dropdown" href="#" role="button"
                         aria-haspopup="true" aria-expanded="false">Services</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" target="_blank" href="http://2020.cappuchino.scesi.umss.edu.bo/">Capuchino</a>
-                            <a class="dropdown-item" target="_blank" href="https://blog.scesi.umss.edu.bo/">Blog</a>
-                        </div>
+                    <div class="dropdown-menu bg-secondary">
+                        <a class="dropdown-item bg-secondary text-light" target="_blank"
+                            href="http://2020.cappuchino.scesi.umss.edu.bo/">Capuchino</a>
+                        <a class="dropdown-item bg-secondary text-light" target="_blank"
+                            href="https://blog.scesi.umss.edu.bo/">Blog</a>
+                    </div>
                 </li>
                 <li class="nav-item"><a href="../html/postulaciones.html"
                         class="nav-link nav--ul--li--a">Postulaciones</a></li>
@@ -44,10 +45,11 @@
     <section role="main" class="container main-section">
         <article class="row">
             <div class="col-12">
-                <h1 class="heading-2">Areas</h2>
+                <h1 class="heading-1">Areas</h2>
             </div>
             <div class="col-12">
-                <p class="text-justify article--p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit optio harum deserunt
+                <p class="text-justify article--p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Reprehenderit optio harum deserunt
                     provident vitae beatae eligendi inventore labore adipisci. Nemo, voluptatum a tempora atque repellat
                     quasi inventore maiores nostrum quod?</p>
             </div>
@@ -57,12 +59,39 @@
                 <div class="card mb-4 shadow-sm">
                     <img src="https://cdn.glitch.com/7b5d1b45-fc74-4414-b21d-0752dbca1ba5%2Fweb%20basico.jpg?v=1596498873790"
                         class="card--img">
-                    <div class="card-body">
-                        <h3 class="heading">Web basico</h3>
-                        <p class="text-justify">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <a class="btn btn-secondary" href="#" role="button">Ver mas</a>
+                    <div>
+                        <h3 class="text-center heading-3 card--heading">Web Basico</h3>
+                        <div class="justify-content-center p-4">
+                            <div class="mx-auto article--div__button">
+                                <button type="button" class="btn btn-secondary article--button" data-toggle="modal"
+                                    data-target="#Modal1">
+                                    Ver mas
+                                </button>
+                                <div class="modal fade" id="Modal1" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Web basico</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-justify">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit. Earum, porro nam? Numquam laudantium esse quasi ea
+                                                    veritatis consequatur! Corrupti optio in assumenda, commodi aliquam
+                                                    dolorem deleniti nemo laborum officia! Animi.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -71,12 +100,39 @@
                 <div class="card mb-4 shadow-sm">
                     <img src="https://cdn.glitch.com/7b5d1b45-fc74-4414-b21d-0752dbca1ba5%2Fangular.png?v=1596507439251"
                         class="card--img">
-                    <div class="card-body">
-                        <h3 class="heading">Web Avanzado</h3>
-                        <p class="text-justify">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <a class="btn btn-secondary" href="#" role="button">Ver más</a>
+                    <div>
+                        <h3 class="text-center heading-3 card--heading">Web Avanzado</h3>
+                        <div class="justify-content-center p-4">
+                            <div class="mx-auto article--div__button">
+                                <button type="button" class="btn btn-secondary article--button" data-toggle="modal"
+                                    data-target="#Modal2">
+                                    Ver mas
+                                </button>
+                                <div class="modal fade" id="Modal2" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Web Avanzado</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-justify">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit. Earum, porro nam? Numquam laudantium esse quasi ea
+                                                    veritatis consequatur! Corrupti optio in assumenda, commodi aliquam
+                                                    dolorem deleniti nemo laborum officia! Animi.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -85,12 +141,39 @@
                 <div class="card mb-4 shadow-sm">
                     <img src="https://cdn.glitch.com/7b5d1b45-fc74-4414-b21d-0752dbca1ba5%2Fmobile.png?v=1596499221374"
                         class="card--img">
-                    <div class="card-body">
-                        <h3 class="heading">Mobile</h3>
-                        <p class="text-justify">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <a class="btn btn-secondary" href="#" role="button">Ver mas</a>
+                    <div>
+                        <h3 class="text-center heading-3 card--heading">Mobile</h3>
+                        <div class="justify-content-center p-4">
+                            <div class="mx-auto article--div__button">
+                                <button type="button" class="btn btn-secondary article--button" data-toggle="modal"
+                                    data-target="#Modal3">
+                                    Ver mas
+                                </button>
+                                <div class="modal fade" id="Modal3" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Mobile</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-justify">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit. Earum, porro nam? Numquam laudantium esse quasi ea
+                                                    veritatis consequatur! Corrupti optio in assumenda, commodi aliquam
+                                                    dolorem deleniti nemo laborum officia! Animi.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -101,26 +184,39 @@
                 <div class="card mb-4 shadow-sm">
                     <img src="https://cdn.glitch.com/7b5d1b45-fc74-4414-b21d-0752dbca1ba5%2Fbase%20de%20datos.jpg?v=1596499129694"
                         class="card--img">
-                    <div class="card-body">
-                        <h3 class="heading">Base de datos</h3>
-                        <p class="text-justify">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <a class="btn btn-secondary" href="#" role="button">Ver mas</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                    <img src="https://cdn.glitch.com/7b5d1b45-fc74-4414-b21d-0752dbca1ba5%2Fseguridad.jpg?v=1596507426205"
-                        class="card--img">
-                    <div class="card-body">
-                        <h3 class="heading">Seguridad</h3>
-                        <p class="text-justify">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <a class="btn btn-secondary" href="#" role="button">Ver mas</a>
+                    <div>
+                        <h3 class="text-center heading-3 card--heading">Base de datos</h3>
+                        <div class="justify-content-center p-4">
+                            <div class="mx-auto article--div__button">
+                                <button type="button" class="btn btn-secondary article--button" data-toggle="modal"
+                                    data-target="#Modal4">
+                                    Ver mas
+                                </button>
+                                <div class="modal fade" id="Modal4" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Base de datos</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-justify">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit. Earum, porro nam? Numquam laudantium esse quasi ea
+                                                    veritatis consequatur! Corrupti optio in assumenda, commodi aliquam
+                                                    dolorem deleniti nemo laborum officia! Animi.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -129,12 +225,80 @@
                 <div class="card mb-4 shadow-sm">
                     <img src="https://cdn.glitch.com/7b5d1b45-fc74-4414-b21d-0752dbca1ba5%2Fuiux.png?v=1596507422877"
                         class="card--img">
-                    <div class="card-body">
-                        <h3 class="heading">UI/UX</h3>
-                        <p class="text-justify">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <a class="btn btn-secondary" href="#" role="button">Ver mas</a>
+                    <div>
+                        <h3 class="text-center heading-3 card--heading">UI/UX</h3>
+                        <div class="justify-content-center p-4">
+                            <div class="mx-auto article--div__button">
+                                <button type="button" class="btn btn-secondary article--button" data-toggle="modal"
+                                    data-target="#Modal5">
+                                    Ver mas
+                                </button>
+                                <div class="modal fade" id="Modal5" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">UI/UX</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-justify">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit. Earum, porro nam? Numquam laudantium esse quasi ea
+                                                    veritatis consequatur! Corrupti optio in assumenda, commodi aliquam
+                                                    dolorem deleniti nemo laborum officia! Animi.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <img src="https://cdn.glitch.com/7b5d1b45-fc74-4414-b21d-0752dbca1ba5%2Fseguridad.jpg?v=1596507426205"
+                        class="card--img">
+                    <div>
+                        <h3 class="text-center heading-3 card--heading">Seguridad</h3>
+                        <div class="justify-content-center p-4">
+                            <div class="mx-auto article--div__button">
+                                <button type="button" class="btn btn-secondary article--button" data-toggle="modal"
+                                    data-target="#Modal6">
+                                    Ver mas
+                                </button>
+                                <div class="modal fade" id="Modal6" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Seguridad</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-justify">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit. Earum, porro nam? Numquam laudantium esse quasi ea
+                                                    veritatis consequatur! Corrupti optio in assumenda, commodi aliquam
+                                                    dolorem deleniti nemo laborum officia! Animi.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -145,26 +309,80 @@
                 <div class="card mb-4 shadow-sm">
                     <img src="https://cdn.glitch.com/7b5d1b45-fc74-4414-b21d-0752dbca1ba5%2Frobotica%20basica.png?v=1596507425608"
                         class="card--img">
-                    <div class="card-body">
-                        <h3 class="heading">Robotica basica</h3>
-                        <p class="text-justify">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <a class="btn btn-secondary" href="#" role="button">Ver mas</a>
+                    <div>
+                        <h3 class="text-center heading-3 card--heading">Robotica Basica</h3>
+                        <div class="justify-content-center p-4">
+                            <div class="mx-auto article--div__button">
+                                <button type="button" class="btn btn-secondary article--button" data-toggle="modal"
+                                    data-target="#Modal7">
+                                    Ver mas
+                                </button>
+                                <div class="modal fade" id="Modal7" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Robotica basica</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-justify">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit. Earum, porro nam? Numquam laudantium esse quasi ea
+                                                    veritatis consequatur! Corrupti optio in assumenda, commodi aliquam
+                                                    dolorem deleniti nemo laborum officia! Animi.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <img src="https://cdn.glitch.com/7b5d1b45-fc74-4414-b21d-0752dbca1ba5%2Frobotica%20basica.png?v=1596507425608"
+                    <img src="https://cdn.glitch.com/7b5d1b45-fc74-4414-b21d-0752dbca1ba5%2Frobotica%20avanzada.png?v=1596507490051"
                         class="card--img">
-                    <div class="card-body">
-                        <h3 class="heading">Robotica Avanzada</h3>
-                        <p class="text-justify">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <a class="btn btn-secondary" href="#" role="button">Ver mas</a>
+                    <div>
+                        <h3 class="text-center heading-3 card--heading">Robotica Avanzada</h3>
+                        <div class="justify-content-center p-4">
+                            <div class="mx-auto article--div__button">
+                                <button type="button" class="btn btn-secondary article--button" data-toggle="modal"
+                                    data-target="#Modal8">
+                                    Ver mas
+                                </button>
+                                <div class="modal fade" id="Modal8" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Robotica Avanzada</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-justify">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit. Earum, porro nam? Numquam laudantium esse quasi ea
+                                                    veritatis consequatur! Corrupti optio in assumenda, commodi aliquam
+                                                    dolorem deleniti nemo laborum officia! Animi.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -173,12 +391,39 @@
                 <div class="card mb-4 shadow-sm">
                     <img src="https://cdn.glitch.com/7b5d1b45-fc74-4414-b21d-0752dbca1ba5%2Fia.png?v=1596507432809"
                         class="card--img">
-                    <div class="card-body">
-                        <h3 class="heading">IA</h3>
-                        <p class="text-justify">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <a class="btn btn-secondary" href="#" role="button">Ver mas</a>
+                    <div>
+                        <h3 class="text-center heading-3 card--heading">IA</h3>
+                        <div class="justify-content-center p-4">
+                            <div class="mx-auto article--div__button">
+                                <button type="button" class="btn btn-secondary article--button" data-toggle="modal"
+                                    data-target="#Modal9">
+                                    Ver mas
+                                </button>
+                                <div class="modal fade" id="Modal9" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">IA</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-justify">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit. Earum, porro nam? Numquam laudantium esse quasi ea
+                                                    veritatis consequatur! Corrupti optio in assumenda, commodi aliquam
+                                                    dolorem deleniti nemo laborum officia! Animi.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -189,12 +434,39 @@
                 <div class="card mb-4 shadow-sm">
                     <img src="https://cdn.glitch.com/7b5d1b45-fc74-4414-b21d-0752dbca1ba5%2Fbackend.jpg?v=1596507433185"
                         class="card--img">
-                    <div class="card-body">
-                        <h3 class="heading">Backend</h3>
-                        <p class="text-justify"">This is a wider card with supporting text below as a natural lead-in to
-                            additional content. This content is a little bit longer.</p>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <a class="btn btn-secondary" href="#" role="button">Ver mas</a>
+                    <div>
+                        <h3 class="text-center heading-3 card--heading">Backend</h3>
+                        <div class="justify-content-center p-4">
+                            <div class="mx-auto article--div__button">
+                                <button type="button" class="btn btn-secondary article--button" data-toggle="modal"
+                                    data-target="#Modal10">
+                                    Ver mas
+                                </button>
+                                <div class="modal fade" id="Modal10" tabindex="-1" role="dialog"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLabel">Backend</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p class="text-justify">Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit. Earum, porro nam? Numquam laudantium esse quasi ea
+                                                    veritatis consequatur! Corrupti optio in assumenda, commodi aliquam
+                                                    dolorem deleniti nemo laborum officia! Animi.</p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-dismiss="modal">Cerrar</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -220,15 +492,9 @@
             </div>
         </div>
     </footer>
-    <script src="../assets/js/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="../assets/js/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-    <script src="../assets/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-        crossorigin="anonymous"></script>
+    <script src="../assets/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
 </body>
 
 </html>
