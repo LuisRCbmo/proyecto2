@@ -4,6 +4,11 @@
     border-radius: 10px;
 }
 
+.article--iframe{
+    height: 375px;
+    border-radius: 10px;
+}
+
 .article--div__img{
     width: max-content;
     margin-bottom: 3rem;
@@ -15,5 +20,5 @@
 }
 
 .article--col--p{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
