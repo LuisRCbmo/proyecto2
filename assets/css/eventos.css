@@ -10,8 +10,9 @@
   max-height: 200px;
 }
 
-.article--col--div__img {
+.article--col--img {
   height: 200px;
+  width: 100%;
 }
 
 .article--p {
